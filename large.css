@@ -1,0 +1,74 @@
+
+.industries-text{
+    margin-top: 5%;
+    background-color:#fff;
+
+}
+
+.industries-text img {
+    width: 20%;
+    margin-left: 120%;
+    margin-bottom: 0;
+    
+}
+.industries-text img span:nth-child(1)
+{
+    animation-delay: 0.5s;
+    margin-top: 5%;
+}  
+
+.carousel-control-next-icon, .carousel-control-prev-icon span
+ {
+display: inline-block;
+width: 50px;
+height: 100px;
+background: no-repeat 50%/100% 100%;
+}
+
+.banner {
+    margin: 80px 115px ;
+    width: 50%;
+    position: relative;
+
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+
+
+    
+
+.banner-title {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+.banner-title h1 {
+    font-size: 55px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    line-height: 70px;
+    padding: 0 10px 0 10px;
+    margin-top: 35%;
+}
+
+.innova-blog {
+    padding: 1px 0;
+}
+.title-style {
+
+}
+
+
+.industries-text img {
+    width: 20%;
+    margin-left: 210%;
+    margin-bottom: 0;
+    }
+
+
+      

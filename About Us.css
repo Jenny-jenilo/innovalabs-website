@@ -1,0 +1,166 @@
+
+   
+    .carousel-control-next-icon, .carousel-control-prev-icon span
+     {
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    background: no-repeat 50%/100% 100%;
+    }
+    
+    .banner {
+        margin: 80px 115px ;
+        width: 50%;
+        position: relative;
+    
+    }
+    
+    .banner img {
+        width: 100%;
+        
+    }
+    
+    
+    
+        
+    
+    .banner-title {
+        position: absolute;
+        left: 50%;
+        top: 20%;
+    }
+    
+    .banner-title h1 {
+        font-size: 55px;
+        background: rgba(0, 0, 0, 0.75);
+        color: #fff;
+        line-height: 70px;
+        padding: 0 10px 0 10px;
+        
+    }
+    
+    .innova-blog {
+        padding: 1px 0;
+    }
+    
+    
+    
+    .industries-text img {
+        width: 20%;
+        margin-left: 210%;
+        margin-bottom: 0;
+        }
+    
+   
+          
+
+
+
+     
+         
+
+    .Aboutus h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 6rem;
+        margin-right: 15%;
+        text-align: justify;
+        font-weight: 400;
+    }
+
+    /*.Aboutus img {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background: url("../innova original/jenny innova/WE ARE HERE TO HELP YOU..mp4");
+        width: 100%;
+    }*/
+
+ 
+    /*.bannerdiv {
+        background-image: url('../innova original/jenny innova/ING_32193_146070.jpg');
+    }*/
+    
+
+    .sloganarea {
+        text-align: justify;
+        
+        
+        
+    }
+    
+    .Aboutus p {
+        font-family: 'lora', sans-serif;
+        font-size: 18px;
+        margin-right: 15%;
+        margin-top: 10px;
+        
+    }
+    
+    
+    .btn-toolbar {
+    float: right;
+    margin-right: 15%;
+    padding-top: 5%;
+    width: 14px 28px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+    
+    }
+    
+    #btnApplicationSolutions {
+        padding: 12px 30px;
+        color: #fff;
+        background:purple;
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 790px;
+        margin-top: 10%;
+    }
+    
+    #btnITConsultation {
+        padding: 12px 30px;
+        color: #fff;
+        background:purple;
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 10%;
+    }
+    
+
+    .col-md-7 h1 {
+     margin-right: 40%;
+     padding-top: 5%;
+    }
+
+
+    .our-team {
+        margin-bottom: 2%;
+        margin-top: 10%;
+    }
+    
+    .row p {
+        font-family: 'lora', sans-serif;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+
+    .row h2 {
+        font-family: 'Montserrat', sans-serif;
+        
+        margin-top: 5%;
+    }
+
+    .col-lg-4 {
+        
+      
+         
+    }
+
+

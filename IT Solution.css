@@ -1,0 +1,137 @@
+
+
+
+        .container2 {
+    
+            position: relative;
+            text-align: center;
+            color:white;
+            background-color:#edf2f5;
+            margin-top: 6%;
+            width: 100%;
+        }
+        .container2 img {
+            width: 50%;
+            }
+        
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        
+        }  
+        
+        .top-right h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+        
+        .w3-container {
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 50px;
+            background-color: white;
+        }
+        
+        .w3-button {
+            background-color: #fff !important;
+            color: #000000 !important;
+            padding: 10px 0 !important;
+            margin: 10px 0 !important;
+            font-size: 1.2rem !important;
+            
+        }
+        
+        .w3-button::after{
+        content: "";
+        height: 1px;
+        background-color: rgb(247, 242, 242);
+        display: block;
+        width: 100%;
+        }
+        
+        .row {
+            margin-top: 10%;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .Demo img {
+        float: left;
+        margin-right: 20px;
+        
+        }
+        
+        .Demo p {
+            color: black;
+            text-align: justify;
+        }
+        /* page ends */
+        
+        #Demo6 img {
+            float: left;
+            margin-right: 20px;  
+        }
+        
+        #Demo6 p {
+            color: black;
+            text-align: justify;
+        }
+        
+        
+        
+        
+        /* application development starts*/
+        .container1 {
+            position: relative;
+            text-align: center;
+            color:white;
+            background-color:#edf2f5;
+            margin-top: 6%;
+            width: 100%;
+        }
+        
+        .container1 img {
+        width: 50%;
+        }
+        
+        
+        
+        .top-left {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        
+        }  
+        
+        .top-left h1 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .w3-container {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        
+        
+        .row {
+            margin-top: 10%;
+        }
+        
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        /*pageends*/
+        
+        
+        
+        
+        
+        
+
+        
+       

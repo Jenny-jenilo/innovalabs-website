@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <title>Innovalabs</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="medium.css">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" ></script> <!--integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+    <article class="all-browsers">
+
+        <div class="navbar">
+          <!-- <div class="con-logo">
+              <img src="../innova original/jenny innova/logo-1.png" alt="con-logo">
+            </div> -->
+        
+            
+            <!--<nav class="navbar navbar-light bg-light">
+              <a class="navbar-brand" href="#">-->
+                <div class="con-logo">
+                <a href="index.html"><img src="../innova original/jenny innova/logo-1.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy"></a>
+                </div>
+              <!--</a>
+            </nav>-->
+            <a class="con-logo">
+             <ul>
+                <li>
+                  <a href="Application.html"> Application Solution</a>
+                </li>
+                <li>
+                  <a href="IT Solution.html"> IT Solution</a>
+                </li>
+                <li>
+                  <a href="Brand Creation.html">Brand Creation</a>
+                </li>
+                <li>
+                  <a href="Industries.html">
+                
+                
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#Industries" role="button" aria-haspopup="true" aria-expanded="false">Industries</a>
+          <div class="dropdown-menu">
+            
+            
+            <a class="dropdown-item" href="large.html">Large Enterprise</a>
+            <a class="dropdown-item" href="Agriculture.html">Agriculture</a>
+            <a class="dropdown-item" href="healthcare.htm">Health Care</a>
+            <div role="separator" class="dropdown-divider"></div>
+            
+          </div>
+          </li>
+        </a>
+        
+        
+                <li>
+                  <a href="About Us.html">About Us</a>
+                </li>
+                <li>
+                  <a href="Blog.html">Blog</a>
+                </li>
+              </ul> 
+              <div class="vl"></div>
+              <i class="fas fa-grip-lines"></i>
+              <div>
+                <button class="letstalkbtn">Let's Talk <i class="far fa-comments-dots" style="font-size: 15px"><i class='far fa-comment-dots'></i></i></button>
+                </div>
+                
+            </a>    
+        </div>
+        
+        
+        <form name="myForm" method="POST" id="frmContactUs" action="sendemail/send.php" class="needs-validation formshow"  novalidate  >
+    
+          <div class="form-row">
+            <div class="col-md-3 mb-6">
+               
+              <label for="validationCustom01">First name</label>
+              <input type="text" name="fname" class="form-control" id="name" placeholder="first name"  required>
+              <span class="focus-input100"></span>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+       
+          
+            <div class="col-md-3 mb-6">
+              <label for="validationCustom02">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder="last name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+          </div>
+        
+          </div>
+          <div class="col-md-3 mb-6">
+            <label for="validationCustom04">Industries</label>
+            <select class="custom-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option value="Medium Industry">Medium Industry</option>
+                <option value="Large Industry"> Large Industry</option>
+                <option value="Agriculture" >Agriculture</option>
+                <option value="Healthcare"> Healthcare</option>
+            
+            </select>
+            <div class="invalid-feedback">
+              Please select an industry state.
+            </div>
+          </div>
+      
+          <div class="col-md-3 mb-6">
+            <label for="validationCustom05">Organisation</label>
+            <input type="text" class="form-control" id="validationCustom05" placeholder="your organisation" required>
+            <div class="invalid-feedback">
+              Please provide the name of your organisation.
+            </div>
+          </div>
+        </div>
+      
+        <div class="form-row">
+          <div class="col-md-3">
+            <label for="validationCustom01">Email Address</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Example@gmail.com" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        
+          <div class="col-md-3-mb-6">
+            <label for="validationCustom02">Phone Number</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="024xxxxxx" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-10 mb-6">
+          <label for="validationTextarea">Message</label>
+          <textarea class="form-con is-invalid" id="validationTextarea" placeholder="Enter text" ></textarea>
+          <div class="invalid-feedback">
+            Please enter a message in the textarea.
+          </div>
+        </div>
+      
+        <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                I would like to recieve newsletters and i agree to recieve information on upcoming events
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+        </div>
+          
+          <button class="btn btn-primary" type="submit" value="submit">Send</button>
+        </form>
+      
+      
+        <div style="display: none;" class="formshow" id="successResponse">
+          <h1> YOUR MESSAGE HAS BEEN SENT SUCCESSFULLY </h1>
+        </div>
+      
+      </div>
+        
+      
+        
+        
+      
+      <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
+      <script>
+        function myFunction() {
+          var forms = document.getElementsByClassName("form-row").length;
+        }
+        </script>
+      
+      <script> 
+      var letsTalk = document.querySelector(".letstalkbtn");
+      var formDisplay = document.querySelector(".formshow");
+      
+      letsTalk.addEventListener("click", ()=>{
+        formDisplay.classList.toggle("formdisplay")
+      })
+      
+      </script>
+      
+      
+      
+
+
+
+
+
+  
+
+
+<div class="bannerdiv">
+<div class="banner">
+    <img src="../innova original/jenny innova/Medium Enterpise.jpeg">
+</div>
+<div class="banner-title">
+    <h1> MEDIUM ENTERPRISE </h1>
+    <P class="text-center">Nulla vitae elit libero, a pharetra augue mollis interdum <br> Nulla vitae elit libero, a pharetra augue mollis interdum <br> Nulla vitae elit libero, a pharetra augue mollis interdum</P>
+</div>
+</div>
+
+<!--<section class="enterprise-trends">
+    <div class="container">
+        <div class="enterise-box">
+<h1> ENTERPRISE </h1>
+        </div>
+    </div>
+</section>-->
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id=""></h4>
+<p>
+
+<div class="row">
+  <div class="col-sm">
+    iNNOVAnewsletter
+    <div class="iNNOVAnewsletter">
+      
+      <h1> OUR INSIGHT TO YOUR <br> INBOX. </h1>
+      <form action="">
+      <div class="container0">
+      <input type="text" placeholder="Email address" name="mail" required> 
+      <input type="submit" value="Subscribe">
+      </div>
+      <div class="container3">
+        
+      </div>
+      </form>
+
+    </div>
+
+  </div>
+  <div class="col-sm">
+    <div class="footer-content">
+      <p> other links</p>
+      <hr></hr>
+      
+      <ul>
+        <li> My Account</li>
+        <li> Online Catalog</li>
+        <li>
+          <a href="contact.html"> Contact</a> 
+        </li>
+        <li> Terms & Conditions</li>
+      </ul>
+
+
+
+    </div>
+
+  </div>
+  <div class="col-sm">
+    
+       <p> Industries </p>
+       <hr></hr>
+      <ul> 
+        <li>
+          <a href="medium.html">Medium Enterprise</a>
+          </li>
+          <li>
+            <a  href="large.html">Large Enterprise</a>
+            </li>
+            <li>
+              <a  href="education.html">Education</a>
+              </li>
+              <li>
+                <a href="government.html">Government</a>
+                </li>
+                <li>
+                  <a href="healthcare.html">Health Care</a>
+                  </li>
+
+      </ul>
+
+
+    </div>
+
+
+  </div>
+
+<div class="socialmedialinks">
+<div class="footer-content">
+<a href="http:www.facebook.com/innova-labs-Gh-103648378150770/"><i class="fab fa-facebook"></i></a>
+<a href=""><i class="fab fa-twitter"></i></a>
+<a href=""><i class="fab fa-linkedin-in"></i>
+<a href="https://www.instagram.com/innova_labs/"><i class="fab fa-instagram"></i></a>
+
+<p class="text-right"> call us today +233 54 177 6321
+</p>
+
+<hr></hr>
+
+</div>
+
+
+</div>
+
+<div class="2020">
+  <p>2020 <i class="far fa-copyright"></i> innovalabs</p>
+</div>
+</div>
+</p>
+</div>
+
+
+
+
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="index"></h4>
+  <p>
+<div class="backup">
+  <span>
+    <a href="#index"> <img src="../innova original/jenny innova/up-arrow1.png">
+      </span>
+    </div>
+</p>
+</div>
+
+
+
+
+</footer>
+</article>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

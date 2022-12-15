@@ -1,0 +1,195 @@
+
+
+
+        /* industry begins*/
+#carouselExampleCaptions {
+    /* margin-top: 90px;*/
+ }
+ 
+ 
+ *{
+ box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ /* Float four columns side by side */
+ .column {
+   float: right;
+   width: 30%;
+   padding: 0 20px;
+ }
+ 
+ /* Remove extra left and right margins, due to padding */
+ /*.row {margin: 0 -5px;}*/
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ 
+ 
+ /* Style the counter cards */
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+   padding: 5px;
+   text-align: center;
+   background-color:#fff;
+   margin-top: 6%;
+   
+   
+ }
+ 
+ .carousel-item {
+     height: 600px;
+     
+ 
+ }
+ 
+ .carousel-item img {
+     width: 100%;
+ }
+ 
+ .carousel-caption {
+     position: relative;
+     top: 50%;
+ }
+ 
+ .industries-text{
+     margin-top: 5%;
+     background-color:#fff;
+ 
+ }
+ 
+ .industries-text img {
+     width: 20%;
+     margin-left: 120%;
+     margin-bottom: 0;
+     
+ }
+ .industries-text img span:nth-child(1)
+ {
+     animation-delay: 0.5s;
+     margin-top: 5%;
+ }  
+ 
+ .carousel-control-next-icon, .carousel-control-prev-icon span
+  {
+ display: inline-block;
+ width: 50px;
+ height: 100px;
+ background: no-repeat 50%/100% 100%;
+ }
+ 
+ .banner {
+     margin: 80px 115px ;
+     width: 50%;
+     position: relative;
+ 
+ }
+ 
+ .banner img {
+     width: 100%;
+     margin-bottom: -50px;
+ }
+ 
+ .banner1 img {
+     margin-left: 10%
+ }
+ .banner2 img{
+     margin-left: 10%
+ } 
+ .banner3 img {
+     margin-left: 10%;
+ } 
+ .banner4 img {
+     margin-left: 10%;
+ }
+ 
+ 
+     .banner-title1 p {
+         margin-top: 0;
+         margin-bottom: 6rem;
+         }   
+     
+     
+     .banner-title2 p {
+         margin-top: 0;
+         margin-bottom: 6rem;
+         }   
+     
+     .banner-title3 p {
+         margin-top: 0;
+         margin-bottom: 6rem;
+         }   
+     
+     
+     .banner-title4 p {
+         margin-top: 0;
+         margin-bottom: 6rem;
+         }   
+ 
+         .banner-title1 h1 {
+             font-size: 2.5rem;
+     margin-left: 37%;
+             }   
+         
+         
+         .banner-title2 h1 {
+             font-size: 2.5rem;
+     margin-left: 37%;
+             }   
+         
+         .banner-title3 h1 {
+             font-size: 2.5rem;
+     margin-left: 37%;
+             }   
+         
+         
+         .banner-title4 h1 {
+             font-size: 2.5rem;
+             margin-left: 37%;
+             }   
+ 
+ 
+ .banner-title {
+     position: absolute;
+     left: 50%;
+     top: 20%;
+ }
+ 
+ .banner-title h1 {
+     font-size: 55px;
+     background: rgba(0, 0, 0, 0.75);
+     color: #fff;
+     line-height: 70px;
+     padding: 0 10px 0 10px;
+     margin-top: 35%;
+ }
+ 
+ .innova-blog {
+     padding: 1px 0;
+ }
+ .title-style {
+ 
+ }
+ 
+ 
+ .industries-text img {
+     width: 20%;
+     margin-left: 210%;
+     margin-bottom: 0;
+     }
+ 
+ 
+ 
+ 
+ 
+
+
+     
